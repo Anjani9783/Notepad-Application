@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>C:/Users/Anjani/Downloads/icons8-save-as-50.png</file>
+        <file>C:/Users/Anjani/Downloads/icons8-save-50.png</file>
+        <file>C:/Users/Anjani/Downloads/icons8-open-file-folder-48.png</file>
+        <file>C:/Users/Anjani/Downloads/icons8-file-50.png</file>
+    </qresource>
+</RCC>
