@@ -103,7 +103,7 @@ void MainWindow::on_actionRedo_triggered()
 
 void MainWindow::on_actionBold_triggered()
 {
-       ui->textEdit->setFontWeight(QFont::Bold);
+    ui->textEdit->setFontWeight(QFont::Bold);
 }
 
 
@@ -115,19 +115,19 @@ void MainWindow::on_actionUnbold_triggered()
 
 void MainWindow::on_actionSubscript_triggered()
 {
-     QTextCharFormat script;
-     script.setVerticalAlignment(QTextCharFormat::AlignSuperScript);
-     if(ui->textEdit->hasFocus())
-      ui->textEdit->mergeCurrentCharFormat(script);
+    QTextCharFormat script;
+    script.setVerticalAlignment(QTextCharFormat::AlignSubScript);
+    if(ui->textEdit->hasFocus())
+     ui->textEdit->mergeCurrentCharFormat(script); 
 }
 
 
 void MainWindow::on_actionSuperscript_triggered()
 {
     QTextCharFormat script;
-    script.setVerticalAlignment(QTextCharFormat::AlignSubScript);
-    if(ui->textEdit->hasFocus())
-     ui->textEdit->mergeCurrentCharFormat(script);
+     script.setVerticalAlignment(QTextCharFormat::AlignSuperScript);
+     if(ui->textEdit->hasFocus())
+      ui->textEdit->mergeCurrentCharFormat(script);
 }
 
 
